@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.13)
+
+add_executable(source)
+
+target_sources(source
+    PRIVATE
+        parser.cpp
+)
